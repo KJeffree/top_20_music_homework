@@ -12,3 +12,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.music-container {
+  margin: 20px;
+  text-align: center;
+}
+
+select {
+  font-size: 14px;
+}
+
+.song-details {
+  background-color: #C2185B;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* p.song-details, h3.song-details {
+  float: left;
+}
+
+img, audio {
+  float: right;
+} */
+
+h1 {
+  text-align: center;
+  color: #C2185B;
+  font-size: 40px;
+}
+
+body {
+  background-color: black;
+}

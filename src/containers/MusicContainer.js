@@ -33,8 +33,8 @@ class MusicContainer extends React.Component {
 
   render(){
     return (
-      <div>
-        <h2>Music Container</h2>
+      <div className="music-container">
+        <h1>Top 20 Songs in the UK</h1>
         <GenreSelector songs={this.state.songs} onGenreSelected={this.handleGenreSelected}/>
         <MusicDetail songs={this.state.songs} currentGenre={this.state.currentGenre}/>
       </div>
